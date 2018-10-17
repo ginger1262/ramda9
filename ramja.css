@@ -1,0 +1,144 @@
+body {
+    font-family: 'Myriad Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+                              /*Header start*/
+
+.header__logo {
+	margin-bottom: 45px;
+}
+.header__logo_black-text {
+    color: #000000;
+    font-size: 80px;
+}
+
+.header__logo_blue-text {
+    color: #4bcaff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.header__navbar {
+    list-style: none;
+}
+
+.header__navbar-element {
+    display: inline;
+    color:  #ffffff;
+    font-size: 24px;
+    text-align: left;
+    background-color:  #35444f;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin-left: -4px;
+}
+
+.header__navbar-element_left {
+    padding-left: 43px;
+    padding-right: 124px;
+}
+
+.header__navbar-element_middle {
+    border-left: 2px solid #818181;
+    border-right: 2px solid #818181;
+    padding-left: 41px;
+    padding-right: 41px;
+    background-color: #222f3a;
+}
+
+.header__navbar-element_right {
+    padding-left: 118px;
+    padding-right: 346px;
+}
+
+                            /*Header end*/
+
+.main-content {
+    display: flex;
+}
+
+.main-content__left {
+    flex: 1 1 30%;
+}
+
+.main-content__right {
+    flex: 1 1 65%;
+}
+.main-content__right__img {
+    width: 320px;
+    height: 381px;
+}
+.footer__navbar {
+	display: inline;
+    color:  #000000;
+    font-size: 24px;
+	text-align: left;
+    background-color:   #b5b8bb;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    
+}
+.footer__nabvar-element{
+	display: inline;
+	padding-left: 21.5px;
+    padding-right: 21.5px;
+}
+.header__navbar-element_right2 {
+   padding-left: 150px;
+}
+.header__navbar-element_left2 {
+	color: #2d82a7;
+}
+.navbar__left {
+	list-style: none;
+	border-width: 1px;
+    border-color:  #35444f;
+    border-style: solid;
+    background-color:  #ffffff;
+    width: 342px;
+	font-family: 'Myriad Pro';
+    color:  #485863;
+    font-size: 26.99px;
+    font-weight: 400;
+    line-height: 88.867px;
+    text-align: left;
+	margin-top: 51px;
+}
+.navbar__left-element_top2 {
+	border-width: 342px;
+	background-color:#dcdcdc;
+}
+.main-content__right-element_ramka{
+	border-width: 1px;
+border-color:  #35444f;
+border-style: solid;
+background-color:  #ffffff;
+width: 883px;
+height: 527px;
+margin-top: 51px;
+margin-left: 51px;
+margin-bottom: 537px;
+}
+.main-content__right__img1 {
+	margin-left: 297px;
+margin-top: 73px;	
+margin-bottom: 75px;
+margin-right: 268px;
+}
+.lorem__ipsum {
+	font-family: 'Myriad Pro';
+color:  #2c2b2b;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-left: 30px;
+margin-top: 51px;
+}
